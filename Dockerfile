@@ -10,5 +10,4 @@ RUN git clone https://github.com/RfidResearchGroup/proxmark3
 WORKDIR /app/proxmark3
 RUN make
 
-WORKDIR /root/cards
 CMD ["/app/proxmark3/pm3"]
